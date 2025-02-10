@@ -1,9 +1,10 @@
 package com.ceph.pagination.data.remote
 
+import com.ceph.pagination.data.dto.BeerDto
 import retrofit2.http.GET
 import retrofit2.http.Query
 
-interface Api {
+interface BeerApi {
 
     @GET("beers")
     suspend fun getBeers(

@@ -1,4 +1,4 @@
-package com.ceph.pagination.domain
+package com.ceph.pagination.domain.model
 
 data class Beer(
     val id: Int,

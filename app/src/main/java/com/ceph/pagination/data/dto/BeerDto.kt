@@ -1,5 +1,8 @@
-package com.ceph.pagination.data.remote
+package com.ceph.pagination.data.dto
 
+import kotlinx.serialization.Serializable
+
+@Serializable
 data class BeerDto(
     val id: Int,
     val name: String,
